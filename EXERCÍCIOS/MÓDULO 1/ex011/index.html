@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="a imagem flexível">
+    </picture>
+    <h1>Reproduzindo videos</h1>
+    <p>Agora nós vamos colocar videos no site.</p>
+    <video width="600px" poster="520035.jpg" controls>
+        <source src="DyV3r$.mp4" type="video/mp4">
+        <p>Vejam o meu video pessoal</p>
+    </video>
+    <h1>Reproduzindo áudio</h1>
+    <p>Agora vamos aprender a colocar áudios</p>
+    <audio preload="metadata" controls>
+<source src="media/6LACK - B4L (Instrumental).mp3" type="audio/mpeg">
+<source src="media/6LACK - B4L (Instrumental).mp3" type="audio/ogg">
+<source src="media/6LACK - B4L (Instrumental).mp3" type="audio/wav">
+<p>Seu navegador não tem compatibilidade com este áudio</p>
+   </audio> 
+</body>
+</html> 

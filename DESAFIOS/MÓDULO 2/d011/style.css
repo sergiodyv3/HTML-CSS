@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+padding: 0px;
+margin: 0px;
+}
+.space>img{
+    z-index: -1;
+margin: 0px;    
+height: 100%;
+width: 100%;
+position: absolute;
+}
+.astro>img{
+ margin: 10% 0% 0% 33%;
+ width: 30%;
+ height: 30%;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
