@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+     background-color: rgba(197, 196, 196, 0.658);
+     margin: 0px;
+
+     font: normal bold small verdana, sans-serif;
+     overflow-y: hidden;
+}
+header{
+     background-color: rgb(24, 37, 66);
+     display: flex;
+
+}
+img{
+     max-height: 201px;
+     max-width: 200px;
+     margin: 0px;
+     padding: 0px;
+}
+nav{
+     padding: 20px;
+     padding-left: 45%;
+}
+a{
+     color: white;
+     text-decoration: none;
+     display: inline-block;
+     padding-right: 8px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     justify-content: space-around;
+
+     transition-duration: 1s;
+}
+
+a:hover{
+     color: yellow;
+     cursor: pointer;
+}
