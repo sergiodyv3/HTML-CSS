@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'PassionOne' ;
+    src: url('fonts/PassionOne-Bold.ttf') format(truetype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url('fonts/Sriracha-Regular.ttf') format(truetype);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+
+}
+header>h1{
+    color: white;
+    font-family: 'PassionOne';
+    margin: 0px;
+    padding: 20px 0px 8px 8px;
+    text-align: center;
+    font-size: 3em;
+}
+header>p{
+    color: white;
+    font-family: 'PassionOne';
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    font-weight: lighter;
+}
+header>p>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header>p:hover>a{
+   color: blue;
+}
+
+Main p{
+    font-family: 'Sriracha';
+    width: 530px;
+    padding: 20px 15px 15px 10px;
+    margin: 40px 10px;
+}
+
+aside>div{
+    padding-top: 20px;
+}
+
+#one{
+    height: 100vh;
+    background-color: white;
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#one p{
+  background-color: rgba(0, 0, 0, 0.228);
+  padding: 10px 5px;
+  margin-left: 15px;
+  color: white;
+}
+#one{
+    max-width: 600px;
+    max-height: 350px;
+}
+
+
+#two p{
+    background-color: rgba(0, 0, 0, 0.228);
+    padding: 10px 5px;
+    margin-left: 15px;
+    color: white;
+}
+
+#two{
+    height: 100vh;
+    background-color: white;
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#two{
+    max-width: 600px;
+    max-height: 350px;
+}
+
+.txt p{
+    max-width: 300px;
+}
+
+footer{
+     color: white;
+     background-color: black;
+     margin: auto;
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+     padding: 2px 5px;
+}
+footer p{
+   max-width: 500px;
+   
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
