@@ -11,17 +11,20 @@
     src: url('fonts/Sriracha-Regular.ttf') format(truetype);
 }
 
-body{
-    padding: 0px;
-    margin: 0px;
+html, body{
+    
+min-height: 100vh;
+margin: 0px;
 }
 
 header{
     background-color: black;
+    color: white;
+    text-align: center;
 
 }
 header>h1{
-    color: white;
+    padding-top: 50px;
     font-family: 'PassionOne';
     margin: 0px;
     padding: 20px 0px 8px 8px;
