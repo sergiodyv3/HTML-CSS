@@ -21,21 +21,17 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    padding-top: 50px;
 
 }
 header>h1{
-    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'PassionOne';
     margin: 0px;
-    padding: 20px 0px 8px 8px;
-    text-align: center;
     font-size: 3em;
 }
 header>p{
-    color: white;
     font-family: 'PassionOne';
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
     text-align: center;
     font-weight: lighter;
 }
@@ -55,8 +51,15 @@ Main p{
     margin: 40px 10px;
 }
 
-aside>div{
-    padding-top: 20px;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    width: 500px;
 }
 
 #one{
@@ -68,24 +71,9 @@ aside>div{
     background-size: cover;
     background-attachment: fixed;
 }
-#one p{
-  background-color: rgba(0, 0, 0, 0.228);
-  padding: 10px 5px;
-  margin-left: 15px;
-  color: white;
-}
-#one{
-    max-width: 600px;
-    max-height: 350px;
-}
 
 
-#two p{
-    background-color: rgba(0, 0, 0, 0.228);
-    padding: 10px 5px;
-    margin-left: 15px;
-    color: white;
-}
+
 
 #two{
     height: 100vh;
@@ -97,14 +85,7 @@ aside>div{
     background-attachment: fixed;
 
 }
-#two{
-    max-width: 600px;
-    max-height: 350px;
-}
 
-.txt p{
-    max-width: 300px;
-}
 
 footer{
      color: white;
