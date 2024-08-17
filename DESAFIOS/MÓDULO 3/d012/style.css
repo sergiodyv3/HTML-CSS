@@ -14,6 +14,11 @@
     padding: 0px;
     margin: 0px;
 }
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'PassionOne';
+    --font3: 'Sriracha';
+}
 html, body{
     
 min-height: 100vh;
@@ -28,15 +33,16 @@ header{
 
 }
 header>h1{
-    padding-bottom: 50px;
-    font-family: 'PassionOne';
+    font-family: var(--font2);
     margin: 0px;
-    font-size: 3em;
+    font-variant: small-caps;
+    font-size: 7vw;
 }
 header>p{
-    font-family: 'PassionOne';
+    font-family: var(--font2);
     text-align: center;
     font-weight: lighter;
+    padding-bottom: 50px;
 }
 header>p>a{
     color: white;
@@ -47,12 +53,6 @@ header>p:hover>a{
    color: blue;
 }
 
-Main p{
-    font-family: 'Sriracha';
-    width: 530px;
-    padding: 20px 15px 15px 10px;
-    margin: 40px 10px;
-}
 
 section{
     padding-top: 10vh;
@@ -61,42 +61,40 @@ section{
 }
  
 section > p {
+    font-family: var(--font3);
     padding: 40px;
+    margin: 40px;
+    font-size: 3.2vw;
+    line-height: 1.5em;
 
 }
 section.imagem{
     background-color: rgba(0, 0, 0, 0.418);
     color: white;
-    width: 800px;
+    width: 97vw;
+    box-shadow: inset 1px 5px 7px rgba(0, 0, 0, 0.397);
 }
 
 section.imagem > p{
-  background-color: black;
-  width: 200px;
+  background-color: rgba(0, 0, 0, 0.395);
+  width: 50vw;
 }
 
-#one{
-    height: 100vh;
-    background-color: white;
+section#img1{
     background-image: url(imagens/background001.jpg);
+    background-size: cover;
     background-position: right center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-
-
-
-#two{
-    height: 100vh;
-    background-color: white;
-    background-image: url(imagens/background002.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
+section.normal > p{
+    width: 400px;
 }
 
 
