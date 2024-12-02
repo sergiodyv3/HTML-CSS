@@ -10,8 +10,11 @@
                border-collapse: collapse;
                align-items: center;
           }
-          thead{
+          thead, tfoot{
                background-color: grey;
+               border: 1px solid black;
+               border-collapse: collapse;
+               align-items: center;
                
           }
      </style>
@@ -21,46 +24,42 @@
      <table>
           <thead>
                <tr>
-                    <td>Posição</td>
-                    <td>Estado</td>
-                    <td>População</td>
+                    <th>Estado</th>
+                    <th>População</th>
                </tr>
           </thead>
           <tbody>
                <tr>
-                    <td>1</td>
                     <td>São Paulo</td>
                     <td>45 973 190</td>
                </tr>
                     <tr>
-                         <td>2</td>
                          <td>Minas Gerais</td>
                          <td>21 322 692</td>
                     </tr>
                     <tr>
-                         <td>3</td>
                          <td>Rio de Janeiro</td>
                          <td>17 219 679</td>
                     </tr>
                     <tr>
-                         <td>4</td>
                          <td>Bahia</td>
                          <td>14 850 513</td>
                     </tr>
                
                <tr>
-                    <td>5</td>
                     <td>Paraná</td>
                     <td>11 824 665</td>
                </tr>
                <tr>
-                    <td>6</td>
                     <td>Rio Grande do Sul</td>
                     <td>11 229 915</td>
                </tr>
           </tbody>
           <tfoot>
-
+               <tr>
+                    <th>Total de habitantes</th>
+                    <td>122 420 654</td>
+               </tr>
           </tfoot>
      </table>
 </body>
